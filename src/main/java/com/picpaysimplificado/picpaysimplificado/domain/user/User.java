@@ -2,7 +2,6 @@ package com.picpaysimplificado.picpaysimplificado.domain.user;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.hibernate.usertype.UserType;
 
 import java.math.BigDecimal;
 
@@ -13,7 +12,7 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @EqualsAndHashCode(of="id")
 
-public class user {
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
